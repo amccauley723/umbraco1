@@ -1,0 +1,12 @@
+/* TINYMCE RTE EDITOR */
+
+body.mceContentBody, body.mce-content-body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #898989;
+    }
+
+
+/**umb_name:Emphasis*/
+.Emphasis{font-weight: 700;
+font-style: italic;}
