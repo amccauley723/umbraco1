@@ -1480,3 +1480,18 @@ System.Web.HttpCompileException (0x80004005): c:\Users\amcca\Documents\Visual St
    at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
  2017-04-10 13:31:35,676 [P580/D6/T25] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 13:41:20,987 [P580/D6/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 13:42:12,965 [P580/D6/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My New Page' with Id '0' has been published.
+ 2017-04-10 13:42:17,186 [P580/D6/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-04-10 13:42:17,203 [P580/D6/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-04-10 13:42:22,477 [P580/D6/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 13:43:22,108 [P580/D6/T33] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 13:43:25,206 [P580/D6/T48] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 13:44:52,940 [P580/D6/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My New Page' with Id '1071' has been published.
+ 2017-04-10 13:44:52,941 [P580/D6/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1069' has been published.
+ 2017-04-10 13:44:57,666 [P580/D6/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-04-10 13:44:57,666 [P580/D6/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-04-10 14:01:26,086 [P580/D6/T46] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: amccauley723@gmail.com, IP Address: ::1
+ 2017-04-10 14:01:32,090 [P580/D6/T40] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: amccauley723@gmail.com, IP Address: ::1
+ 2017-04-10 14:01:58,725 [P580/D6/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username amccauley723@gmail.com from IP address ::1
+ 2017-04-10 14:01:58,725 [P580/D6/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: amccauley723@gmail.com logged in from IP address ::1

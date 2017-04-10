@@ -41,8 +41,8 @@
 					        var selection = CurrentPage.Site().Children.Where("Visible");
 					    }
 						@foreach(var item in selection){
-						    <li>
-						        <a href="@item.Name">@item.Name</a>
+						    <li class="@(item.IsAncestorOrSelf(CurrentPage) ? "active" : null)">
+						        <a href="@item.Url">@item.Name</a>
 						    </li>
 						}
 					</ul>
