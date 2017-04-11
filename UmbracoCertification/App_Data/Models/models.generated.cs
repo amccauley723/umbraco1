@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "fb6936c6bead921d")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.8")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "12bf3139c179e74b")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.5")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -231,6 +231,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Image, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Crop
+		///</summary>
+		[ImplementPropertyType("crop")]
+		public Umbraco.Web.Models.ImageCropDataSet Crop
+		{
+			get { return this.GetPropertyValue<Umbraco.Web.Models.ImageCropDataSet>("crop"); }
 		}
 
 		///<summary>

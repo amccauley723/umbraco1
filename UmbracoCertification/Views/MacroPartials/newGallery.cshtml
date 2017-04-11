@@ -17,7 +17,7 @@
 @{ var mediaIds = Model.MacroParameters["mediaIds"]; }
 @if (mediaIds != null)
 {
-    <ul class="thumbnails">
+    <div class="parent-container">
         @foreach (var mediaId in mediaIds.ToString().Split(','))
         {
             var media = Umbraco.Media(mediaId);
@@ -38,14 +38,14 @@
             }
 
         }
-    </ul>
+    </div>
 }
 
 @helper Render(dynamic item)
 {
-    <li class="span2">
-        <a href="@item.umbracoFile.src" class="thumbnail">
-            <img src="@item.umbracoFile.src" alt="@item.Name" />
+
+        <a href="@item.umbracoFile.src" class="gallery-item">
+            <img src="@item.GetCropUrl("imageCropper", "medium")" alt="@item.Name" class="white-popup"/>
         </a>
-    </li>
+
 }
